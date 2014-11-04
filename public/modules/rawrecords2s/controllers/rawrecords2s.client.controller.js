@@ -38,6 +38,8 @@ angular.module('rawrecords2s').controller('Rawrecords2sController', ['$scope', '
 
 		// Create new Rawrecords2
 		$scope.createhbkk = function() {
+
+
 			// Create new Rawrecords2 object
             console.log ("--- hbkk 111111111111111 in rawrecords2s.client.controller.js $scope.create ");
 			var rawrecords2 = new Rawrecords2s ({
