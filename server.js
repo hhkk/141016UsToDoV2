@@ -5,7 +5,7 @@
 
 require('./projRequire');   // hbkk adds projRequire
 // projRequire('/lib/lol');
-//var util = require('util');
+var util = require('util');
 var o = projRequire('/public/lib/ustodo/o');     // hbkk require('o');
 o.o("hbkk Server.js program start");
 
