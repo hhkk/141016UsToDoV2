@@ -3,6 +3,17 @@
 var o = projRequire('/public/lib/ustodo/o'); // C:\140812NodeUsToDoA\public\modules\core\util
 o.o('projRequire load done in express.js');
 
+console.log ("pre o2");
+var o2 = projRequire('/public/lib/ustodo/o2test'); // C:\140812NodeUsToDoA\public\modules\core\util
+o2('I called o2test');
+console.log ("post o2");
+
+// C:\141016UsToDoV2\public\hknodemoduleexample\hknodemodule.js
+//var o2 = projRequire('/public/hknodemoduleexample/hknodemodule');
+//o.o(o2);
+
+
+
 /**
  * Module dependencies.
  */
